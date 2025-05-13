@@ -54,3 +54,17 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
+/** Root Styles **/
+
+:root{
+
+    --lt-orange: #F0BB78; 
+    --lt-beige: #F5ECD5;
+    --lt-green: #A4B465;
+    --dk-green: #626F47;
+}
+
+/** Header Styles **/
+
+
