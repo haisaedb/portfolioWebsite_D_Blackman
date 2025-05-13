@@ -63,8 +63,35 @@ table {
     --lt-beige: #F5ECD5;
     --lt-green: #A4B465;
     --dk-green: #626F47;
+
+    --h-fonts: 'Lato', san-serif;
+    --p-fonts: 'New Cycle', san-serif;
 }
 
 /** Header Styles **/
+
+body{
+    background: var(--lt-orange);
+    color: var(--dk-green);
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    /** add background image here: background-image: url(image file); **/
+    background-size: cover;
+    background-position: center;
+}
+
+.navMenu{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
